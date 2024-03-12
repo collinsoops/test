@@ -1,0 +1,66 @@
+name: testban
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  hive: ^1.4.4+1
+  hive_flutter: ^0.3.1
+  http: ^0.12.0
+  pdf: ^3.6.0
+  intl:
+  path_provider: ^1.6.28
+  provider:
+  shared_preferences:
+  jwt_decoder: ^1.0.3
+  o_popup: ^0.1.4
+  awesome_dialog: ^2.2.1
+  auto_size_text: ^3.0.0
+  url_launcher: ^6.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator:
+  build_runner:
+  flutter_launcher_icons:
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icon/icon.png
+    - assets/images/barcode.png
+    - assets/icon/hom1.png
+    - assets/icon/home.png
+    - assets/icon/home--v2.png
+    - assets/icon/phone.png
+    - assets/icon/bal.png
+    - assets/icon/balance.png
+    - assets/icon/bills.png
+    - assets/icon/cash-in-hand.png
+    - assets/icon/deposit.png
+    - assets/icon/print.png
+    #    json resposnses
+    - assets/json/agentaccount.json
+    - assets/json/customerdata.json
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"

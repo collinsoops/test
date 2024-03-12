@@ -1,0 +1,8 @@
+{
+  "response": {
+    "status": "SUCCESS",
+   "isAuthorized": true,
+    "is_error": false,
+    "message": "Successfully Authenticated"
+  }
+}

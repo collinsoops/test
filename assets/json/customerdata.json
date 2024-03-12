@@ -1,0 +1,56 @@
+{
+  "response": {
+    "action": "GET_CUSTOMER_DATA",
+    "status": "SUCCESS",
+    "payload": {
+      "title": "Accounts & Customer Data",
+      "message": "Customer Found",
+      "data": {
+        "customer": {
+          "name": "John Juma",
+          "mobile_number": "254722554433",
+          "id_number": "12345678",
+          "member_number": "34534537"
+        },
+        "accounts": [
+          {
+            "name": "FOSA Savings Account",
+            "number": "01010032894",
+            "balances": {
+              "book_balance": "1234.00",
+              "available_balance": "734.00"
+            },
+            "currency": {
+              "code": "KES",
+              "symbol": "Ksh"
+            }
+          },
+          {
+            "name": "Ordinary Savings Account",
+            "number": "01030032894",
+            "balances": {
+              "book_balance": "9873.00",
+              "available_balance": "9373.00"
+            },
+            "currency": {
+              "code": "KES",
+              "symbol": "Ksh"
+            }
+          },
+          {
+            "name": "Benevolent Account",
+            "number": "01050032894",
+            "balances": {
+              "book_balance": "1000.00",
+              "available_balance": "500.00"
+            },
+            "currency": {
+              "code": "KES",
+              "symbol": "Ksh"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
